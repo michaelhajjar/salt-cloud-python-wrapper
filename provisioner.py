@@ -61,7 +61,7 @@ def main(argv):
     mem = args.mem
     zone = args.zone
 
-				# define the networks you want the cli tool to have
+    # define the networks you want the cli tool to have
     if zone == 'network1':
       nic = 'network1'
       gw4 = '192.168.2.0'
